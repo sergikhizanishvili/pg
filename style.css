@@ -1,0 +1,103 @@
+/* 
+Theme Name: Hello Elementor Child
+Theme URI: https://github.com/elementor/hello-theme/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Author: Elementor Team
+Author URI: https://elementor.com/
+Template: hello-elementor
+Version: 1.0.1
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+/*
+    Add your custom styles here
+*/
+
+.pg-button-rounded {
+	-webkit-border-radius: 2em 0 2em 0;
+	-moz-border-radius: 2em 0 2em 0;
+	border-radius: 2em 0 2em 0;
+}
+
+.pg-fs-14 {
+	font-size: 0.73vw;
+}
+
+.pg-fs-20 {
+	font-size: 1.04vw;
+}
+
+.pg-fs-25 {
+	font-size: 1.30vw;
+}
+
+.pg-fs-30 {
+	font-size: 1.56vw;
+}
+
+.pg-fs-50 {
+	font-size: 2.60vw;
+}
+
+.pg-fw-400 {
+	font-weight: normal;
+}
+
+.pg-fw-600 {
+	font-weight: 600;
+}
+
+.pg-fw-700 {
+	font-weight: 700;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	
+	.pg-fs-14 {
+		font-size: 1.82vw;
+	}
+
+	.pg-fs-20 {
+		font-size: 2.60vw;
+	}
+
+	.pg-fs-25 {
+		font-size: 3.25vw;
+	}
+
+	.pg-fs-30 {
+		font-size: 3.90vw;
+	}
+
+	.pg-fs-50 {
+		font-size: 6.51vw;
+	}
+	
+}
+
+@media (max-width: 767.98px) {
+	
+	.pg-fs-14 {
+		font-size: 3.73vw;
+	}
+
+	.pg-fs-20 {
+		font-size: 5.30vw;
+	}
+
+	.pg-fs-25 {
+		font-size: 6.67vw;
+	}
+
+	.pg-fs-30 {
+		font-size: 8.00vw;
+	}
+
+	.pg-fs-50 {
+		font-size: 13.33vw;
+	}
+	
+}
